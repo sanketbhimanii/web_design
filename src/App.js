@@ -1,15 +1,19 @@
 
 import React from "react";
 import Login from "./Login-page/Login";
+import Test from "./Test-page/test"
 
 
-import logo from './logo.svg';
+
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-     <Login></Login>
+     {/* <Login></Login> */}
+     <Test></Test>
+     
     </div>
   );
 }
