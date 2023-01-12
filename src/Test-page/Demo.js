@@ -59,7 +59,16 @@ function Demo() {
         </div>
       </div>
 
+      <div className='property-name'>
+        <a href='https://www.google.com'>Google</a>
+        <a href='https://www.instagram.com'>Instagram</a>
 
+        <form>
+          <input type='textBox' placeholder='Enter Your Email' required/> <br></br>
+          <input type='textBox' placeholder='enter your password' /> 
+        </form>
+
+      </div>
     </div>
   )
 }
