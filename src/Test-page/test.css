@@ -59,16 +59,16 @@
 
     /* test */
 
-    #nav ul {
+    #nav>ul {
       display: flex;
     }
 
-    #nav ul li {
-      position: relative;
+    #nav ul li{
+      flex: 1;
     }
 
-    #nav ul:first-child>li {
-      width: 20%;
+    #nav ul li ul>li {
+      position: relative;
     }
 
     #nav ul li:hover>ul {
@@ -81,17 +81,7 @@
       top: 0;
     }
 
-    #nav ul li ul li:hover>ul {
-      display: block;
+    #nav > ul > li:nth-child(4)>a {
+      background-color: #FFE4C9;
     }
     
-    #nav ul:first-child li:nth-child(4) a {
-      background-color: blanchedalmond;
-    }
-
-    #nav ul:first-child li:nth-child(4) a:hover {
-      text-decoration: none;
-      background: #915fa6;
-      color: #FFFFFF;
-
-    }

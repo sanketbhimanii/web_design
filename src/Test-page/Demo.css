@@ -1,0 +1,104 @@
+.property-name {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  height: 100vh;
+}
+
+/* -------------------------------------------------------------------------------- */
+/* Aspect-ratio */
+.aspect-ratio_img {
+  aspect-ratio: 5/1;
+  width: 100%;
+  object-fit: contain;
+}
+
+/* -------------------------------------------------------------------------------- */
+/* Backdrop-filter */
+
+.backdrop_filter {
+  background: pink;
+
+}
+
+.backdrop_filter p {
+  background-color: rgba(104, 42, 42, 0.3);
+  border-radius: 5px;
+  backdrop-filter: contrast(2.5);
+  padding: 20px 30px;
+  max-width: 50%;
+  margin: auto;
+  background-blend-mode: ;
+
+}
+
+/* -------------------------------------------------------------------------------- */
+/* background-blend-mode */
+.container {
+  background-image: url('./lord_krishna.jpg');
+  height: 500px;
+  width: 50%;
+  display: block;
+  float: left;
+  background-color: red;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.container--blend {
+  background-blend-mode: saturation;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+/* -------------------------------------------------------------------------------------- */
+/* background-size */
+.background-size {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  border: 1px solid black;
+  margin-bottom: 1em;
+  background-image: url(./lord_krishna.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* --------------------------------------------------------------------------------------- */
+
+/* block-size */
+.block-size {
+  border: 2px dashed rgb(9, 8, 8);
+  padding: 10px;
+  block-size: 100px;
+}
+
+/* jetla ma border kareli chhe atli block ni size chhe. */
+
+/* --------------------------------------------------------------------------------------- */
+/* box-reflect */
+.box-reflect {
+  border: 1px solid #ccc;
+  background: #eee;
+  padding: 2em;
+  -webkit-box-reflect: below 5px linear-gradient(to bottom, transparent, black);
+}
+
+/* --------------------------------------------------------------------------------------- */
+/*column-fill*/
+/* column-rule-style */
+/* Column-rule-width */
+.column-fill {
+  height:200px;
+  background: rgb(255, 255, 188);
+  columns: 5;
+  column-fill: auto;
+  column-gap: 10px;
+  column-rule: double;
+  column-rule-color: blue;
+  column-rule-style: dashed;
+  column-rule-width: thick;
+}
