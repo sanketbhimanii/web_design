@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/* -------------------------------Container start------------------------------- */
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+
+.container_card {
+  width: 50%;
+}
+/* -------------------------------Container end------------------------------- */
+
+/* -------------------------------Container-Card Header Start------------------------------- */
+.container_card .card_header {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: #eff6ff;
+  padding: 20px;
+  border-radius: 16px;
+  margin-bottom: 30px;
+}
+
+.card_header .card_detail {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.card_headerIcone{
+  height: 40px;
+}
+
+.card_detail .card_headerTitle {
+  font-size: 28px;
+  color: #1e3a8a;
+
+}
+
+.card_header .card_headerTotal {
+  font-size: 38px;
+  color: #1e3a8a;
+  font-weight: 600;
+}
+/* -------------------------------Container-Card Header End------------------------------- */
+
+/* -------------------------------Container-Card Detail Box Start------------------------------- */
+
+.detail_box {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 2px solid #60a5fa;
+}
+
+.detail_box .card_detail {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.card_detail .card_boxTitle {
+  font-size: 28px;
+  color: #1e3a8a;
+
+}
+
+.detail_box .card_boxTotal {
+  font-size: 28px;
+  color: #1e3a8a;
+
+}
+/* -------------------------------Container-Card Detail Box End------------------------------- */
+
+/* -----------------------------Diffrent Colors Dot-------------------------------- */
+
+.card_detail .blue_dot {
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  background: #1e3a8a;
+}
+
+.card_detail .cyan_dot {
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  background: #67e8f9;
+}
+
+.card_detail .purpul_dot {
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  background: #9333ea;
+}
+
+.card_detail .amber_dot {
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  background: #fbbf24;
+}
