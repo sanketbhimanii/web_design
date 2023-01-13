@@ -24,12 +24,12 @@ function Login() {
                 </div>
 
                 <div class="flex items-center justify-between mt-5">
-                  <label className="flex  cursor-pointer items-center p-2 border-2 border-blue-500 rounded-lg ">
-                    <div className="h-5 w-5 ">
-                      <input class=" appearance-none h-4 w-4 ring-2 border-white rounded-sm bg-white checked:bg-blue-600 checked:border-gray-400  bg-no-repeat bg-center cursor-pointer" type="checkbox" />
+                  <label className="flex  cursor-pointer items-center p-2 border border-blue-800 rounded-lg ">
+                    <div className="border-2  h-6 w-6 relative border-blue-800 rounded-md">
+                      <input class=" appearance-none absolute right-1 bottom-1 h-3 w-3  border-white rounded-sm bg-white checked:bg-blue-800 checked:border-gray-400  bg-no-repeat cursor-pointer" type="checkbox" />
                     </div>
                     <label class="form-check-label  text-sm inline-block text-indigo-600 ml-2" for="flexCheckDefault">
-                      Checkbox Text
+                     Custome Checkbox.
                     </label>
                   </label>
                   <div class="text-sm"><a href="#" class="font-medium text-indigo-600 hover:text-indigo-500">Forgot your password?</a>
