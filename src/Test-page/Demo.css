@@ -40,13 +40,14 @@
   width: 50%;
   display: block;
   float: left;
-  background-color: red;
+  margin: auto;
+  background-color: #0300ff;
   background-size: 100%;
   background-repeat: no-repeat;
 }
 
 .container--blend {
-  background-blend-mode: saturation;
+  background-blend-mode: luminosity;
 }
 
 h1 {
@@ -92,7 +93,7 @@ h1 {
 /* column-rule-style */
 /* Column-rule-width */
 .column-fill {
-  height:200px;
+  height: 200px;
   background: rgb(255, 255, 188);
   columns: 5;
   column-fill: auto;
@@ -101,4 +102,60 @@ h1 {
   column-rule-color: blue;
   column-rule-style: dashed;
   column-rule-width: thick;
+}
+
+/* --------------------------------------------------------------------------------------- */
+/*List,Hover,Visisted,Active*/
+
+a:link {
+
+  width: 10%;
+  margin: auto;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  padding: 20px;
+  border-bottom: 2px solid lightblue;
+  border-radius: 10px;
+}
+
+a:visited {
+  color: #ff0077;
+  border-bottom: 2px solid #e69dd0;
+}
+
+a:hover {
+  color: rgb(76, 46, 242);
+  border-bottom: 2px solid #7a88f1;
+  cursor: pointer;
+
+}
+
+a:active {
+  color: #19f8ae;
+  border-bottom: 2px solid #81f9d1;
+}
+
+/* --------------------------------------------------------------------------------------- */
+/*:focus ,:required*/
+
+form {
+  width: 50%;
+  margin: auto;
+  padding: 50px 0;
+}
+
+input{
+  padding: 20px;
+}
+
+input:focus{
+  padding: 20px;
+  background-color: #cbe9e1;
+  outline:none;
+  border-radius: 12px;
+}
+
+input:required{
+  color:#8a2be2;
 }
