@@ -1,10 +1,33 @@
 import React from 'react'
 import Google from '../Login-page/img/google.svg'
-import './Demo.css'
+import './Demo.css' 
 
 function Demo() {
-  return (
-    <div>
+  return ( 
+    <div className='property-name'> 1.First - child 2.First - of - type 3.last-child 4. last-of-type 5.::first-latter 6.::selector
+      <header>
+        <p>Always be yourself, express yourself, have faith in yourself, do not go out and look for a successful personality and duplicate it.</p>
+        <p>If you always put limit on everything you do, physical or anything else. It will spread into your work and into your life. There are no limits. There are only plateaus, and you must not stay there, you must go beyond them.</p>
+        <p>My mission in life is not merely to survive, but to thrive; and to do so with some passion, some compassion, some humor, and some style.</p>
+        <h3>Inspiring Quotes</h3>
+      </header>
+     
+      <header>
+        <h3>Inspiring Quotes</h3>
+        <p>Always be yourself, express yourself, have faith in yourself, do not go out and look for a successful personality and duplicate it.</p>
+        <p>If you always put limit on everything you do, physical or anything else. It will spread into your work and into your life. There are no limits. There are only plateaus, and you must not stay there, you must go beyond them.</p>
+        <p>My mission in life is not merely to survive, but to thrive; and to do so with some passion, some compassion, some humor, and some style.</p>
+      </header>
+
+      <p>direct child of property-name.</p>
+      <p>this is also direct child of property-name.</p>
+
+      <div className='container'>
+        <p>this is the first paragraph inside the container</p>
+        <p>this is the second paragraph inside the container</p>
+        <p>this is the third paragraph inside the container</p>
+      </div>
+
       <div className='property-name'>1.Aspect-ratio
         <img className='aspect-ratio_img' src={Google}>
         </img>
@@ -64,13 +87,21 @@ function Demo() {
         <a href='https://www.instagram.com'>Instagram</a>
 
         <form>
-          <input type='textBox' placeholder='Enter Your Email' required/> <br></br>
-          <input type='textBox' placeholder='enter your password' /> 
+          <input type='textBox' placeholder='Enter Your Email' required /> <br></br>
+          <input type='textBox' placeholder='enter your password' />
         </form>
 
       </div>
+
     </div>
+    
+     
+
+
+
+ 
+    
   )
 }
 
-export default Demo
+export default Demo 

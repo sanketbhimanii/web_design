@@ -22,7 +22,7 @@ function Component() {
             <h3 className='text-blue-900 capitalize  text-3xl  m-4'>phone collection</h3>
           </div>
           <div>
-            <h1 className='text-blue-900  text-3xl'>200</h1>
+            <h4 className='text-blue-900  text-3xl'>200</h4>
           </div>
         </div>
 
@@ -32,7 +32,7 @@ function Component() {
             <h3 className='text-blue-900   text-3xl  m-4'>Pre-decaying loans</h3>
           </div>
           <div>
-            <h1 className='text-blue-900  text-3xl'>70</h1>
+            <h4 className='text-blue-900  text-3xl'>70</h4>
           </div>
         </div>
 
@@ -42,7 +42,7 @@ function Component() {
             <h3 className='text-blue-900  text-3xl  m-4'>Pre-decaying loans</h3>
           </div>
           <div>
-            <h1 className='text-blue-900  text-3xl'>110</h1>
+            <h4 className='text-blue-900  text-3xl'>110</h4>
           </div>
         </div>
 
@@ -52,7 +52,7 @@ function Component() {
             <h3 className='text-blue-900  text-3xl  m-4'>Non performing loans(NPM) </h3>
           </div>
           <div>
-            <h1 className='text-blue-900  text-3xl'>30</h1>
+            <h4 className='text-blue-900  text-3xl'>30</h4>
           </div>
         </div>
       </div>

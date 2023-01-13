@@ -35,15 +35,15 @@
 /* -------------------------------------------------------------------------------- */
 /* background-blend-mode */
 .container {
-  background-image: url('./lord_krishna.jpg');
-  height: 500px;
+  /* background-image: url('./lord_krishna.jpg');
+  height: 500px; */
   width: 50%;
   display: block;
-  float: left;
+  /* float: left; */
   margin: auto;
-  background-color: #0300ff;
+  /* background-color: #0300ff;
   background-size: 100%;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 
 .container--blend {
@@ -158,4 +158,31 @@ input:focus{
 
 input:required{
   color:#8a2be2;
+}
+
+/* --------------------------------------------------------------------------------------- */
+/*:first-child :first-of-type :last-child :last-of-type  ::first-letter ::selection*/
+p:first-child{
+  color:#ff0077
+}
+
+h3:first-of-type{
+  color:#7a88f1
+}
+
+.property-name p:last-child{
+  color: #799a8f;
+}
+
+.property-name p:last-of-type{
+  color: #9273af;
+}
+
+.property-name p::first-letter{
+  font-size: 50px; 
+}
+
+.property-name p::selection{
+  background-color: #333;
+  color: #efef8a;
 }

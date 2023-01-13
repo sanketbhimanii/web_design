@@ -21,7 +21,7 @@ function card() {
         
         <div className='detail_box'>
           <div className='card_detail'>
-            <div className='blue_dot' />
+            <div className='card_dot blue_dot' />
             <h3 className='card_boxTitle'>Phone collection</h3>
           </div>
           <div>
@@ -33,7 +33,7 @@ function card() {
 
         <div className='detail_box'>
           <div className='card_detail'>
-            <div className='cyan_dot' />
+            <div className='card_dot cyan_dot' />
             <h3 className='card_boxTitle'>Pre-decaying Loans</h3>
           </div>
           <div>
@@ -45,7 +45,7 @@ function card() {
 
         <div className='detail_box'>
           <div className='card_detail'>
-            <div className='purpul_dot' />
+            <div className='card_dot purpul_dot' />
             <h3 className='card_boxTitle'>Post-decaying Loans</h3>
           </div>
           <div>
@@ -57,7 +57,7 @@ function card() {
 
         <div className='detail_box'>
           <div className='card_detail'>
-            <div className='amber_dot' />
+            <div className='card_dot amber_dot' />
             <h3 className='card_boxTitle'>Non performing Loans (NPL)</h3>
           </div>
           <div>

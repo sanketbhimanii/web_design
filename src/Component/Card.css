@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
 }
+
 /* -------------------------------Container start------------------------------- */
 .container {
   display: flex;
@@ -17,6 +18,7 @@
 .container_card {
   width: 50%;
 }
+
 /* -------------------------------Container end------------------------------- */
 
 /* -------------------------------Container-Card Header Start------------------------------- */
@@ -38,7 +40,7 @@
   gap: 20px;
 }
 
-.card_headerIcone{
+.card_headerIcone {
   height: 40px;
 }
 
@@ -53,6 +55,7 @@
   color: #1e3a8a;
   font-weight: 600;
 }
+
 /* -------------------------------Container-Card Header End------------------------------- */
 
 /* -------------------------------Container-Card Detail Box Start------------------------------- */
@@ -83,34 +86,34 @@
   color: #1e3a8a;
 
 }
+
 /* -------------------------------Container-Card Detail Box End------------------------------- */
 
 /* -----------------------------Diffrent Colors Dot-------------------------------- */
 
-.card_detail .blue_dot {
+
+.card_dot {
   height: 20px;
   width: 20px;
   border-radius: 100%;
+}
+
+ .blue_dot {
+
   background: #1e3a8a;
 }
 
-.card_detail .cyan_dot {
-  height: 20px;
-  width: 20px;
-  border-radius: 100%;
+ .cyan_dot {
+
   background: #67e8f9;
 }
 
-.card_detail .purpul_dot {
-  height: 20px;
-  width: 20px;
-  border-radius: 100%;
+ .purpul_dot {
+
   background: #9333ea;
 }
 
-.card_detail .amber_dot {
-  height: 20px;
-  width: 20px;
-  border-radius: 100%;
+ .amber_dot {
+
   background: #fbbf24;
 }
